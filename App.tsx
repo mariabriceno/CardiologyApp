@@ -1,21 +1,17 @@
-
-
-import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from './screens/home';
-import ListView from './screens/list/index';
-
-const Stack = createNativeStackNavigator();
+import 'react-native-gesture-handler';
+import React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
+import Navigation from './components/Navigation';
+import {data} from './data';
+import ListProvider from './providers/ListProvider';
 
 function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name='HomeScreen' component={HomeScreen} />
-        <Stack.Screen name="ListView" component={ListView} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <ListProvider content={data}>
+      <NavigationContainer>
+        <Navigation />
+      </NavigationContainer>
+    </ListProvider>
   );
 }
 

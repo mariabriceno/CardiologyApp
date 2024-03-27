@@ -2,7 +2,7 @@
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reacdctnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -81,3 +81,56 @@ To learn more about React Native, take a look at the following resources:
 This app is designed for people learning how to perform and interpret echocardiography.
 
 Its purpose is to serve as a bedside comparison for your own images with common views and pathologies.
+
+# Getting Started
+
+## Step 1: Start the Metro Server
+
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+
+To start Metro, run the following command from the _root_ of your React Native project:
+
+```bash
+# using npm
+npm start
+
+# OR using Yarn
+yarn start
+```
+
+## Step 2: Start your Application
+
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _iOS_ app:
+
+### For iOS
+
+```bash
+# using npm
+npm run ios
+
+# OR using Yarn
+yarn ios
+```
+
+If everything is set up _correctly_, you should see your new app running in your _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+
+This is one way to run your app — you can also run it directly from within Xcode.
+
+## Troubleshooting
+
+If you are having trouble with iOS, try to reinstall the dependencies by running:
+
+1. cd ios to navigate to the ios folder.
+2. bundle install to install Bundler
+3. bundle exec pod install to install the iOS dependencies managed by CocoaPods.
+
+## Packages used
+
+Documentation for packages installed linked here:
+
+- [styled-components](https://styled-components.com/docs/basics#react-native)
+  Used for styling / creating styled components
+- [React Navigation](https://reactnavigation.org/docs/hello-react-navigation)
+  Navigating between screens
+- [Drawer Navigation](https://reactnavigation.org/docs/drawer-navigator)
+  Tabbed navigation on the side

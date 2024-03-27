@@ -1115,11 +1115,11 @@ PODS:
     - React-perflogger (= 0.73.3)
   - RNCMaskedView (0.1.11):
     - React
-  - RNGestureHandler (2.14.1):
+  - RNGestureHandler (2.16.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - RNReanimated (3.6.2):
+  - RNReanimated (3.8.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1398,12 +1398,12 @@ SPEC CHECKSUMS:
   React-utils: b22b4a51aa578b3aac1e7c19501c0b9ba358ed79
   ReactCommon: e708b8be8cb317b83e31c6ccfeda8bf6c0d1a2b3
   RNCMaskedView: 0e1bc4bfa8365eba5fbbb71e07fbdc0555249489
-  RNGestureHandler: 25b969a1ffc806b9f9ad2e170d4a3b049c6af85e
-  RNReanimated: 5589be82dc26b3f94738eb7c6b1f942787532b25
+  RNGestureHandler: 727b656d5a3fa247aac2c8cc70b8757356066451
+  RNReanimated: 3e23d4be380e295e504b7b3b3a357df60e1168a2
   RNScreens: b582cb834dc4133307562e930e8fa914b8c04ef2
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
-  Yoga: ff0382b894475dba0b4d2a5fda860bfee5a9afad
+  Yoga: 08cd7601462818c4985bda7b205b9e6a92a7e66a
 
 PODFILE CHECKSUM: c10375f542c1c2be0cf898957fccf8dae40dce16
 
-COCOAPODS: 1.15.0
+COCOAPODS: 1.14.3
