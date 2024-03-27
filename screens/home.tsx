@@ -8,7 +8,6 @@ import {View, Text} from 'react-native';
 // type Props = NativeStackScreenProps<RootStackParamList, 'HomeScreen'>;
 
 function HomeScreen(): React.JSX.Element {
-
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       {/* <Button title={'Spanish'} onPress={() => handleClick(dataEs)} />
